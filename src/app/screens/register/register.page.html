@@ -1,0 +1,33 @@
+  <ion-header>
+  <ion-toolbar>
+    <ion-button slot="start" color="light">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+    <ion-title>register</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="container">
+    <ion-item>
+      <!-- <ion-label position="floating">Username</ion-label>
+      <ion-input type="text"></ion-input> -->
+      <ion-input fill="fill" placeholder="Username" type="email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <!-- <ion-label position="floating">Full Name</ion-label>
+      <ion-input type="text"></ion-input> -->
+      <ion-input fill="fill" placeholder="Full Name"></ion-input>
+    </ion-item>
+  
+    <ion-item>
+      <!-- <ion-label position="floating">Password</ion-label>
+      <ion-input type="password"></ion-input> -->
+      <ion-input fill="fill" placeholder="Password" type="password"></ion-input>
+    </ion-item>
+  
+    <ion-button expand="full" class="login-button" routerLink="/dashboard">Sing up</ion-button>
+    <ion-button expand="full" color="medium" routerLink="/login">Already have an Account</ion-button>
+  </div>
+</ion-content>

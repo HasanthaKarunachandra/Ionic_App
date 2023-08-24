@@ -1,0 +1,16 @@
+.container{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 10px;
+    background: url('https://img.freepik.com/free-photo/3d-mountain-landscape-sunset_1048-9753.jpg?w=740&t=st=1692893020~exp=1692893620~hmac=639b88b017a42d688233c992d81689fc489edf3a7845bd018f86d37623147bf1') no-repeat;
+    background-size: cover;
+}
+.login-button{
+    margin: 50px 0 15px 0;
+}
+ion-item:first-child, ion-item:nth-child(2){
+    margin-bottom: 10px;
+}
